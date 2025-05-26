@@ -81,7 +81,9 @@ in your browser (or use Live Server in VS Code)
 
 ## 📸 Screenshots
 
-> Add screenshots of your dashboard here once hosted or developed
+![Screenshot 2025-05-26 214643](https://github.com/user-attachments/assets/a6066558-9c38-4c7f-a93f-4e939ffd17f5)
+![Screenshot 2025-05-26 214713](https://github.com/user-attachments/assets/2d0d14b3-8486-4f4b-96fb-8571a133379a)
+![Screenshot 2025-05-26 214729](https://github.com/user-attachments/assets/ee1c0926-0405-46ab-81cb-e3822b5f0e21)
 
 ---
 
