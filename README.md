@@ -27,13 +27,7 @@ weather-app/
 │ ├── js/
 │ └── img/
 
-yaml
-Always show details
-
-Copy
-
 ---
-
 
 ## 🛠️ Tech Stack
 
@@ -44,48 +38,24 @@ Copy
 
 ---
 
-
 ## ⚙️ Setup Instructions
 
 ### 📦 1. Clone the Repo
-```bash
 git clone https://github.com/your-username/weather-app.git
 cd weather-app
 🚀 2. Backend Setup
-bash
-Always show details
-
-Copy
 cd backend
 npm install
 Create a .env file:
-
 env
-Always show details
-
-Copy
 MONGO_URI=mongodb://localhost:27017/weatherApp
 Start MongoDB:
-
-bash
-Always show details
-
-Copy
 mongod
 Start the backend server:
-
-bash
-Always show details
-
-Copy
-node server.js
+npm start
 🌐 3. Frontend Usage
 Open the file:
 
-bash
-Always show details
-
-Copy
 frontend/world.html
 in your browser (or use Live Server in VS Code)
 
@@ -109,9 +79,6 @@ Weather icons based on condition
 In /backend/.env, add:
 
 env
-Always show details
-
-Copy
 MONGO_URI=mongodb://localhost:27017/weatherApp
 🚧 Future Improvements
 User authentication system
