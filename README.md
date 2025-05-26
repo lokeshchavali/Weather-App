@@ -61,11 +61,6 @@ frontend/world.html
 in your browser (or use Live Server in VS Code)
 
 📸 Screenshots
-![Screenshot 2025-05-26 214643](https://github.com/user-attachments/assets/cc105c7c-fa19-4baf-af0f-40dffab1e0c1)
-![Screenshot 2025-05-26 214713](https://github.com/user-attachments/assets/c29bfb69-19d3-49da-8f3f-661d208218f3)
-![Screenshot 2025-05-26 214729](https://github.com/user-attachments/assets/91f6b8bf-cf1a-4a6e-bf2a-489f600e03af)
-
-
 
 📌 Features
 Location-based forecast display
