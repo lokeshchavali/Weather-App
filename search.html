@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>MoodWeather - Search City</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+  <link rel="stylesheet" href="css/search.css" />
+</head>
+<body>
+  <main class="search-wrapper">
+    <header class="search-header">
+      <h2>🔍 Find Your Weather</h2>
+      <p>Search for any city worldwide to get instant forecasts!</p>
+    </header>
+
+    <div class="search-box">
+      <i class="fa-solid fa-location-dot search-icon"></i>
+      <input class="search-input" type="text" placeholder="Enter city name..." />
+    </div>
+
+    <section class="feedback-box">
+      <div class="search-hint">You can enter city names like Tokyo, Delhi, or New York.</div>
+      <div class="search-error hidden">❌ City not found. Try again!</div>
+    </section>
+
+    <section class="result-card hidden">
+      <div class="city-info">
+        <h3 class="city-name">--</h3>
+        <p class="temp-now">--°C</p>
+      </div>
+      <div class="city-icon">
+        <img class="weather-icon" src="img/sun.png" alt="icon" />
+      </div>
+      <div class="metrics">
+        <span>💨 Wind: <span class="wind">--</span></span>
+        <span>🌡️ Pressure: <span class="pressure">--</span></span>
+        <span>💧 Humidity: <span class="humidity">--</span></span>
+        <span>🌅 Sunrise: <span class="sunrise">--</span></span>
+        <span>🌇 Sunset: <span class="sunset">--</span></span>
+      </div>
+    </section>
+
+    <footer class="navigation-bar">
+      <a href="index.html"><i class="fa-solid fa-compass"></i></a>
+      <a class="active" href="search.html"><i class="fa-solid fa-magnifying-glass-location"></i></a>
+      <a href="world.html"><i class="fa-solid fa-globe-europe"></i></a>
+    </footer>
+  </main>
+
+  <script src="js/search.js"></script>
+</body>
+</html>

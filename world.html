@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>MoodWeather - World Watch</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"/>
+  <link rel="stylesheet" href="css/world.css"/>
+</head>
+<body>
+  <main id="world-container">
+    <header class="header-bar">
+      <h2>🌎 World Weather Dashboard</h2>
+      <button id="toggle-unit">°C / °F</button>
+    </header>
+
+    <section class="add-city-section">
+      <input type="text" id="city-input" placeholder="Add a new city..." />
+      <button id="add-btn"><i class="fa-solid fa-plus"></i></button>
+      <p class="message">Search any global city 🌐</p>
+      <p class="error-message hidden">⚠️ Could not find city</p>
+      <p class="added-message hidden">✅ City added successfully</p>
+    </section>
+
+    <section class="cities-display" id="city-cards">
+      <!-- Dynamic city cards will be inserted here -->
+    </section>
+
+    <footer class="navigation-bar">
+      <a href="index.html"><i class="fa-solid fa-compass"></i></a>
+      <a href="search.html"><i class="fa-solid fa-magnifying-glass-location"></i></a>
+      <a class="active" href="world.html"><i class="fa-solid fa-globe-europe"></i></a>
+    </footer>
+  </main>
+
+  <script src="js/world.js"></script>
+</body>
+</html>
